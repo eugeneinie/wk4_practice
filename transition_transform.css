@@ -1,0 +1,41 @@
+body {
+    background-color: #333;
+}
+
+main {
+    color: blueviolet;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+
+/* .target:hover { 
+    font-size: 14px;
+    transition: font-size 4s 1s;
+ } */
+
+/* .target:hover {
+    font-size: 36px;
+} */
+
+nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  a {
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: #fff;
+    color: #333;
+  }
